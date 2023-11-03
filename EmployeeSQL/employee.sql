@@ -10,7 +10,6 @@ on e.emp_no = s.emp_no;
 select first_name, last_name, hire_date
 from employees
 where hire_date like '%1986%';
---https://stackoverflow.com/questions/14290857/sql-select-where-field-contains-words
 
 --List the manager of each department along with 
 --their department number, department name, 
